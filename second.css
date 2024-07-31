@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.firstbox{
+    background-color:  rgb(216, 176, 226);
+    width: 68rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.secondbox{
+    background-color: white;
+    width: 55rem;
+    height: 20rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.about{
+    padding-left: 2rem;
+}

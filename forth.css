@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width: 68.5rem;
+    height: 31rem;
+    background-color: rgb(195, 154, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub{
+    background-color: whitesmoke;
+    height: 27rem;
+    width: 66rem;
+    border-radius: 5px;
+    box-shadow: 7px 10px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.firstbox{
+    background-color: white;
+    box-shadow: 2px 3px grey;
+    height: 25rem;
+    width: 20rem;
+    /* border: 2px solid blue; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.secondbox{
+    background-color: white;
+    box-shadow: 2px 3px grey;
+    height: 25rem;
+    width: 20rem;
+    /* border: 2px solid blue; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.thirdbox{
+    background-color: white;
+    box-shadow: 2px 3px grey;
+    height: 25rem;
+    width: 20rem;
+    /* border: 2px solid blue; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.text{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}

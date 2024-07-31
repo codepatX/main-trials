@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navParent {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 5rem;
+    align-items: center;
+}
+
+header {
+    background-color: teal;
+    height: 40rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    /* margin-top: 0.8rem; */
+    width: 20rem;
+    height: 5rem;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.Logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-btn {
+    border: none;
+    background-color: white; 
+    border-radius: 1.5rem;
+    /* padding: 0.8rem; */
+    color: teal;
+    font-size: 14px;
+    height: 2rem;
+    width: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+    width: 50%;
+    height: 5rem;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+    /* .NAV{} */
+    /* .NAV{} */
+    /* .NAV{} */
+    /* .NAV{} */
+
+
+
+
+
+    /* .HEADERSESSION{} */
+    /* .HEADERSESSION{} */
+    /* .HEADERSESSION{} */
+    /* .HEADERSESSION{} */
+
+    
+.headerTextarea {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 21.5rem;
+}
+
+
+.header-fig {
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 21.5rem;
+}
+
+.headerParent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.header-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.headerTextarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.headerText {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.headerPara {
+    color: white;
+    font-size: 1.2rem;
+    width: 25rem;
+}
+
+.ex-btn {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: white;
+    color: teal;
+}
+
+.con-btn {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: teal;
+}
+
+.header-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+ /* .HEADERSESSION{} */
+  /* .HEADERSESSION{} */
+   /* .HEADERSESSION{} */
+    /* .HEADERSESSION{} */
+
+
+   /* .MAINSESSION{} */
+   /* .MAINSESSION{} */
+   /* .MAINSESSION{} */
+
+       main{
+        background-color: white;
+        /* height: 100rem; */
+        border: 2px solid black;
+        
+       }
+
+
+
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+
+
+       .wwd-head{
+         /* border: 2px solid red; */
+         height: 8rem;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 6rem;
+         gap: 1.5rem;
+       }
+       
+       .wwd-text{
+        color: teal;
+        font-weight: bold;
+       }
+
+       .wwd-header{
+        font-size: 30px;
+        width: 30rem;
+        text-align: center;
+        color: rgb(46, 43, 43);
+       }
+
+
+       .head-cards{
+       width: 100%;
+       /* border: 2px solid red; */
+       display: flex;
+       justify-content: center;
+       gap: 1.2rem;
+       margin-top: 1rem;
+       }
+
+
+
+.card1{
+    height: 17rem;
+    width: 20%;
+    /* border: 2px solid aqua; */
+    border-radius: 0.5rem;
+    box-shadow: 0.5px 0.5px 10px 5px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
+
+       .cardpic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+       }
+
+       .paratext{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 1rem;
+    }
+       
+
+    .anchor{
+        /* background-color: bisque; */
+    /* border: 2px solid brown; */
+    height: 2rem;
+    color: teal;
+    }
+
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+       /* .WHAT-WE-DO{} */
+
+
+
+
+
+       /* .WHY-WE-CHOOSE{} */
+       /* .WHY-WE-CHOOSE{} */
+       /* .WHY-WE-CHOOSE{} */
+
+
+.w-w-c_banner{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 30rem;
+}
+
+
+
+
+.w-w-c_img{
+    height: 30rem;
+    width: 100%;
+}
